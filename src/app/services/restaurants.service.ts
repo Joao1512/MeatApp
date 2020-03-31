@@ -1,29 +1,15 @@
+import { map } from 'rxjs/operators';
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
 import { Restaurant } from 'app/components/main-restaurant/restaurant/restaurant.model';
-
 @Injectable()
 export class RestaurantsService {
 
-  restaurants: Restaurant[] = [
-    {
-      id: "bread-bakery",
-      name: "Bread & Bakery",
-      category: "Bakery",
-      deliveryEstimate: "25m",
-      rating: 4.9,
-      imagePath: "assets/img/restaurants/breadbakery.png",
-    },
-    {
-      id: "burger-house",
-      name: "Burger House",
-      category: "Hamburgers",
-      deliveryEstimate: "100m",
-      rating: 3.5,
-      imagePath: "assets/img/restaurants/burgerhouse.png",
-    },
-  ];
-constructor() { }
-  getRestaurants(){
-    return this.restaurants;
+
+constructor(private http: HttpClient) { }
+
+  getRestaurants() {
+    return this.http.get('http://localhost:3000/restaurants')
   }
 }
