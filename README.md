@@ -4,7 +4,7 @@ Este repositório contém a aplicação de restaurantes desenvolvida no curso de
 
 ### Clonando o Repositório
 
-`git clone https://github.com/cod3rcursos/meat-app-starter.git`
+`git clone https://github.com/Joao1512/MeatApp.git`
 
 ### Instalando as Dependências
 
