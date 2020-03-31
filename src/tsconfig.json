@@ -1,5 +1,9 @@
 {
+  "angularCompilerOptions": {
+    "enableIvy": false
+  },
   "compilerOptions": {
+
     "downlevelIteration": true,
     "sourceMap": true,
     "declaration": false,

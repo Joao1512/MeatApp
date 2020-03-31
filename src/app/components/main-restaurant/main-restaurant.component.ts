@@ -8,7 +8,7 @@ import { Restaurant } from './restaurant/restaurant.model';
   styleUrls: ['./main-restaurant.component.css']
 })
 export class MainRestaurantComponent implements OnInit {
-  restaurants: Restaurant [];
+  restaurants;
 
   constructor (private restaurantsService: RestaurantsService) { }
 
