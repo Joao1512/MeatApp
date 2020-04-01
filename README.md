@@ -3,6 +3,11 @@ Este repositório contém a aplicação de restaurantes desenvolvida no curso de
 
 ![0](https://user-images.githubusercontent.com/43080476/78089476-eeb32900-739d-11ea-9a93-f506ad88e325.png)
 
+![1](https://user-images.githubusercontent.com/43080476/78089516-0f7b7e80-739e-11ea-8458-cf270847acbc.png)
+
+![2](https://user-images.githubusercontent.com/43080476/78089521-11454200-739e-11ea-84aa-954908eb686f.png)
+
+
 ## 1. Passos para começar
 
 ### Clonando o Repositório
