@@ -1,5 +1,8 @@
 # Meat - Angular App Starter
 Este repositório contém a aplicação de restaurantes desenvolvida no curso de Angular da Cod3rs.
+
+![0](https://user-images.githubusercontent.com/43080476/78089476-eeb32900-739d-11ea-9a93-f506ad88e325.png)
+
 ## 1. Passos para começar
 
 ### Clonando o Repositório
