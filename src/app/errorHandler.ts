@@ -2,7 +2,7 @@ import { Observable } from 'rxjs/Observable';
 import { Response } from '@angular/http';
 
 export class errorHandler {
-  static errorHandle(error: Response | any){
+  static handleError(error: Response | any){
     let errorMessage: String;
 
     if (error instanceof Response) {

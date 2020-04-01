@@ -1,3 +1,4 @@
+import { ShoppingCartService } from './components/restaurant-Detail/shopping-cart/shopping-cart.service';
 import { ReviewsComponent } from './components/restaurant-Detail/reviews/reviews.component';
 import { ShoppingCartComponent } from './components/restaurant-Detail/shopping-cart/shopping-cart.component';
 import { MenuItemComponent } from './components/restaurant-Detail/menu-item/menu-item.component';
@@ -41,7 +42,7 @@ import { CommonModule } from '@angular/common';
     HttpClientModule,
     CommonModule
   ],
-  providers: [RestaurantsService],
+  providers: [RestaurantsService, ShoppingCartService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
